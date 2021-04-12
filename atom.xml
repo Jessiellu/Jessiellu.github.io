@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-11T09:08:23.474Z</updated>
+  <updated>2021-04-12T03:15:18.168Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,12 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Introduce</title>
+    <link href="http://example.com/2021/04/12/Introduce/"/>
+    <id>http://example.com/2021/04/12/Introduce/</id>
+    <published>2021-04-12T03:03:54.000Z</published>
+    <updated>2021-04-12T03:15:18.168Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Hello, I’m a student in school. 😃<br>My major is Computer Science and Technology. 💻<br>Here are some of the notes that I learned before, and now I sort them out. 📔</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Hello, I’m a student in school. 😃&lt;br&gt;My major is Computer Science and Technology. 💻&lt;br&gt;Here are some of the notes that I l</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>jessie_blog</title>
     <link href="http://example.com/2021/04/11/jessie-blog/"/>
     <id>http://example.com/2021/04/11/jessie-blog/</id>
     <published>2021-04-11T09:08:23.000Z</published>
-    <updated>2021-04-11T09:08:23.474Z</updated>
+    <updated>2021-04-12T03:16:43.611Z</updated>
     
+    <content type="html"><![CDATA[<p>hello</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;hello&lt;/p&gt;
+</summary>
+      
     
     
     
