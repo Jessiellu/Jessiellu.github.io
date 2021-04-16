@@ -7,4 +7,4 @@
 
 
 ## 📊 GitHub Stats
-https://github-readme-stats.vercel.app/api?username=Jessiellu
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jessiellu)](https://github.com/anuraghazra/github-readme-stats)
