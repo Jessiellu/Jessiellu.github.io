@@ -4,7 +4,7 @@
 * You can contact me by email: jessiellu20@163.com 📫
 
 ## 📝 Blog & Writing
-### Repositories:study-blog
+### [Repositories:study-blog](https://github.com/Jessiellu/study-blog/tree/master)
 > This repositories is used for take study notes.
 
 ## 💻 Language
