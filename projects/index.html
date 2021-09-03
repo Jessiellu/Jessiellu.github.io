@@ -6,8 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="theme-color" content="#33474d">
 
-	<title>Jessie's Blog</title>
+	<title>Projects</title>
 
+	<link rel="icon" href="/img/logo.jpg" sizes="32x32" />
 	<link rel="stylesheet" href="/css/style.css" />
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
     
@@ -16,15 +17,67 @@
 <body>
 
 	<header class="header">
-		<nav class="header__nav">
-			<a href="/" class="header__link">Home</a>
-			<a href="/projects" class="header__link">Projects</a>
-			<a href="/about" class="header__link">About</a>	
-			<a href="/about" class="header__link">Contact</a>
-		</nav>
+		<div class="header__nav">
+			<div class="header__navfull">
+				<ul class="header__navfull_menu">
+					<li>
+						<a href="/" class="header__link">
+							<input type="image" class="menu__home" src="/img/home.svg"  width="16px" height="16px">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="/projects" class="header__link">
+							<input type="image" class="menu__projects" src="/img/projects.svg" width="16px" height="16px">
+							Projects
+						</a>
+					</li>
+					<li>
+						<a href="/about" class="header__link">
+							<input type="image" class="menu__about" src="/img/about.svg" width="16px" height="16px">
+							About
+						</a>
+					</li>
+					<li>
+						<a href="/contact" class="header__link">
+							<input type="image" class="menu__contact" src="/img/contact.svg" width="16px" height="16px">
+							Contact
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="header__navinbox">
+				<a class="header__nav_logo" href="/">
+					<img src="/img/logo.jpg" width="32px" height="32px">
+				</a>
+				<span class="header__nav_title">Projects</span>
+				<div class="header__navdown">
+					<input type="image" class="header__navdown_menu" name="menu_click" src="/img/menu.svg" width="32px" height="32px">
+					<div class="header__downmenu">
+						<a href="/" class="header__link">
+							<input type="image" class="menu__home" src="/img/home.svg"  width="16px" height="16px">
+							Home
+						</a>
+						<a href="/projects" class="header__link">
+							<input type="image" class="menu__projects" src="/img/projects.svg" width="16px" height="16px">
+							Projects
+						</a>
+						<a href="/about" class="header__link">
+							<input type="image" class="menu__about" src="/img/about.svg" width="16px" height="16px">
+							About
+						</a>
+						<a href="/contact" class="header__link">
+							<input type="image" class="menu__contact" src="/img/contact.svg" width="16px" height="16px">
+							Contact
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<h1 class="header__title"><a href="/">Jessie's blog</a></h1>
 		<h2 class="header__subtitle">Welcome to my blog!</h2>
 	</header>
+
 
 	<main>
 		<h1>Projects</h1>
