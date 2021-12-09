@@ -136,18 +136,6 @@ table tbody tr:hover {
 .article__tag-link:before {
   content: '#';
 }
-<<<<<<< HEAD
-
-.article__intro_contain > p {
-  font-size: 2em;
-  position: absolute;
-  left: -8.5rem;
-  width: 8rem;
-  text-align: right;
-}
-
-=======
->>>>>>> 7f3488724899aebbe250ad134c0789ef8e84bfdd
 .article__infos {
   font-size: 0.7rem;
   position: absolute;
