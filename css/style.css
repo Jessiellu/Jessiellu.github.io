@@ -505,13 +505,19 @@ article .different-posts {
   left: 0; */
 }
 .header__navfull {
-  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  width: 100%;
+}
+.header__nav_logo {
+  margin: auto 10px;
+  vertical-align: middle;
 }
 .header__navfull_menu {
   list-style: none;
   display: flex;
   margin: 0px;
-  padding: 0 100px;
 }
 .header__navfull_menu li {
   list-style: none;
