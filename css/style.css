@@ -498,11 +498,10 @@ article .different-posts {
   margin: 0 auto;
   padding: 0;
   background: rgba(162, 197, 250, 0.5);
-  /*固定导航栏失效*/
-  /* position: fixed;
+  position: fixed;
   z-index: 100;
   top: 0;
-  left: 0; */
+  left: 0;
 }
 .header__navfull {
   display: flex;
@@ -1155,9 +1154,9 @@ a {
   text-decoration: none;
   color: #33474d;
 }
-a:visited {
+/* a:visited {
   color: currentColor;
-}
+} */
 a:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
   background-image: linear-gradient(#0ba6d7, #0ba6d7);

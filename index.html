@@ -12,85 +12,86 @@
 	<link rel="icon" href="img/logo.jpg" sizes="32x32" >
 	<link rel="stylesheet" href="css/style.css" >
 	<link rel="alternate" href="atom.xml" title="Jessie's Blog" type="application/atom+xml">
+	<script src="/js/scrollMenu.js"></script>
 
     <meta name="generator" content="Hexo 5.4.0">
 </head>
 
 <body>
-
-	<header class="header">
-		<div class="header__nav">
-			<div class="header__navfull">
-				<a class="header__nav_logo" href="/">
-					<img src="img/logo.jpg" width="32px" height="32px">
-				</a>
-				<ul class="header__navfull_menu">
-					<li>
-						<a href="/" class="header__link">
-							<input type="image" class="menu__home" src="img/home.svg"  width="16px" height="16px">
-							Home
-						</a>
-					</li>
-					<li>
-						<a href="/projects" class="header__link">
-							<input type="image" class="menu__projects" src="img/projects.svg" width="16px" height="16px">
-							Projects
-						</a>
-					</li>
-					<li>
-						<a href="/about" class="header__link">
-							<input type="image" class="menu__about" src="img/about.svg" width="16px" height="16px">
-							About
-						</a>
-					</li>
-					<li>
-						<a href="/contact" class="header__link">
-							<input type="image" class="menu__contact" src="img/contact.svg" width="16px" height="16px">
-							Contact
-						</a>
-					</li>
-					<li>
-						<div class="header__link" id="menu__language" onclick="changeLanguage()">
-							<!-- <img class="menu__language" src="img/cn_en.svg" width="20px" height="20px"> -->
-							<input type="image" class="menu__language" src="img/cn_en.svg" width="18px" height="18px">
-							中文
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="header__navinbox">
-				<a class="header__nav_logo" href="/">
-					<img src="img/logo.jpg" width="32px" height="32px">
-				</a>
-				<span class="header__nav_title">Home</span>
-				<div class="header__navdown">
-					<input type="image" class="header__navdown_menu" name="menu_click" src="img/menu.svg" width="32px" height="32px">
-					<div class="header__downmenu">
-						<a href="/" class="header__link">
-							<input type="image" class="menu__home" src="img/home.svg"  width="16px" height="16px">
-							Home
-						</a>
-						<a href="/projects" class="header__link">
-							<input type="image" class="menu__projects" src="img/projects.svg" width="16px" height="16px">
-							Projects
-						</a>
-						<a href="/about" class="header__link">
-							<input type="image" class="menu__about" src="img/about.svg" width="16px" height="16px">
-							About
-						</a>
-						<a href="/contact" class="header__link">
-							<input type="image" class="menu__contact" src="img/contact.svg" width="16px" height="16px">
-							Contact
-						</a>
-						<div class="header__link" onclick="changeLanguage()">
-							<!-- <img class="menu__language" src="img/cn_en.svg" width="20px" height="20px"> -->
-							<input type="image" class="menu__language" src="img/cn_en.svg" width="16px" height="16px">
-							中文
-						</div>
+	<div class="header__nav">
+		<div class="header__navfull">
+			<a class="header__nav_logo" href="/">
+				<img src="img/logo.jpg" width="32px" height="32px">
+			</a>
+			<ul class="header__navfull_menu">
+				<li>
+					<a href="/" class="header__link">
+						<input type="image" class="menu__home" src="img/home.svg"  width="16px" height="16px">
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="/projects" class="header__link">
+						<input type="image" class="menu__projects" src="img/projects.svg" width="16px" height="16px">
+						Projects
+					</a>
+				</li>
+				<li>
+					<a href="/about" class="header__link">
+						<input type="image" class="menu__about" src="img/about.svg" width="16px" height="16px">
+						About
+					</a>
+				</li>
+				<li>
+					<a href="/contact" class="header__link">
+						<input type="image" class="menu__contact" src="img/contact.svg" width="16px" height="16px">
+						Contact
+					</a>
+				</li>
+				<li>
+					<div class="header__link" id="menu__language" onclick="changeLanguage()">
+						<!-- <img class="menu__language" src="img/cn_en.svg" width="20px" height="20px"> -->
+						<input type="image" class="menu__language" src="img/cn_en.svg" width="18px" height="18px">
+						中文
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="header__navinbox">
+			<a class="header__nav_logo" href="/">
+				<img src="img/logo.jpg" width="32px" height="32px">
+			</a>
+			<span class="header__nav_title">Home</span>
+			<div class="header__navdown">
+				<input type="image" class="header__navdown_menu" name="menu_click" src="img/menu.svg" width="32px" height="32px">
+				<div class="header__downmenu">
+					<a href="/" class="header__link">
+						<input type="image" class="menu__home" src="img/home.svg"  width="16px" height="16px">
+						Home
+					</a>
+					<a href="/projects" class="header__link">
+						<input type="image" class="menu__projects" src="img/projects.svg" width="16px" height="16px">
+						Projects
+					</a>
+					<a href="/about" class="header__link">
+						<input type="image" class="menu__about" src="img/about.svg" width="16px" height="16px">
+						About
+					</a>
+					<a href="/contact" class="header__link">
+						<input type="image" class="menu__contact" src="img/contact.svg" width="16px" height="16px">
+						Contact
+					</a>
+					<div class="header__link" onclick="changeLanguage()">
+						<!-- <img class="menu__language" src="img/cn_en.svg" width="20px" height="20px"> -->
+						<input type="image" class="menu__language" src="img/cn_en.svg" width="16px" height="16px">
+						中文
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+	<header class="header">
+		
 		<h1 class="header__title">Jessie&#39;s blog</h1>
 		<h2 class="header__subtitle">Welcome to my blog!</h2>
 	</header>
