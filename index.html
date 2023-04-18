@@ -49,6 +49,13 @@
 							Contact
 						</a>
 					</li>
+					<li>
+						<div class="header__link" id="menu__language" onclick="changeLanguage()">
+							<!-- <img class="menu__language" src="img/cn_en.svg" width="20px" height="20px"> -->
+							<input type="image" class="menu__language" src="img/cn_en.svg" width="18px" height="18px">
+							中文
+						</div>
+					</li>
 				</ul>
 			</div>
 			<div class="header__navinbox">
@@ -75,6 +82,11 @@
 							<input type="image" class="menu__contact" src="img/contact.svg" width="16px" height="16px">
 							Contact
 						</a>
+						<div class="header__link" onclick="changeLanguage()">
+							<!-- <img class="menu__language" src="img/cn_en.svg" width="20px" height="20px"> -->
+							<input type="image" class="menu__language" src="img/cn_en.svg" width="16px" height="16px">
+							中文
+						</div>
 					</div>
 				</div>
 			</div>
@@ -88,18 +100,18 @@
 	<article>
 		<div class="article__intro">
 			<blockquote class="article__intro_contain">
-				<p>Hello, I’m a student in school. 😃<br>My major is Computer Science and Technology. 💻<br>Here are some of the notes that I learned before, and now I sort them out. 📔</p>
+				<p>Hello, welcome to my blog. 👋<br>I usually like to study the code of web frontend development. 💻<br>Here are some of the notes that I learned before, and now I sort them out, hoping to learn from each other and help you understand me. 📔<br>If you have any questions or discover website errors, please feel free to contact me 😀</p>
 			</blockquote>
 		</div>
 	</article>
 
 	<article>
-		<h1><a href="/2021/12/09/git/">Git 命令</a></h1>
+		<h1><a href="/2021/12/09/git/">Git Command</a></h1>
 		<div class="article__infos">
 			<span class="article__date">2021-12-09</span><br />
 			
 		</div>
-		<p>本章涵盖了使用 Git 完成各种工作时将会用到的各种基本命令。能够配置并初始化一个仓库（repository）、开始或停止跟踪（track）文件、暂存（stage）或提交（commit）更改。</p>
+		<p>This chapter covers various basic commands that will be used to complete various tasks using Git.</p>
 		<p>
 			<a class="article__read-more-link" href="/2021/12/09/git/">
 				...read more
@@ -139,6 +151,11 @@
 
 	<span class="different-posts">📕 end of posts 📕</span>
 
+	<script>
+		function changeLanguage() {
+			window.location = '/cn/index.html'
+		}
+	</script>
 
 	</main>
 
@@ -150,11 +167,11 @@
 			<div class="footer__element">
 				<h5>Check out</h5>
 				<ul class="footer-links">
-					<li class="footer-links__link"><a href="/">Home</a></li>
-					<li class="footer-links__link"><a href="/projects">Projects</a></li>
-					<li class="footer-links__link"><a href="/about">About page</a></li>
-					<li class="footer-links__link"><a href="/categories">Categories</a></li>
-					<li class="footer-links__link"><a href="https://github.com/Jessiellu">Follow me</a></li>
+					<li class="footer-links__link"><img src="../img/home.svg"><a href="/">Home</a></li>
+					<li class="footer-links__link"><img src="../img/projects.svg"><a href="/projects">Projects</a></li>
+					<li class="footer-links__link"><img src="../img/about.svg"><a href="/about">About page</a></li>
+					<li class="footer-links__link"><img src="../img/contact.svg"><a href="/contact">Contact</a></li>
+					<li class="footer-links__link"><img src="../img/github_white.svg" width="18px" height="18px"><a href="https://github.com/Jessiellu">Follow me</a></li>
 				</ul>
 			</div>
 

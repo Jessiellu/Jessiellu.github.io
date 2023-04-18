@@ -530,27 +530,39 @@ article .different-posts {
   display: none;
 }
 .header__link {
+  cursor: pointer;
   text-decoration: none;
   margin: 0 2em;
   font-weight: bold;
   color: #fff;
   text-shadow: #7f7f7f 2px 2px 2px;
+  vertical-align: middle;
 }
 .header__link:hover {
   text-shadow: 0.03em 0 rgba(0,0,0,0), -0.03em 0 rgba(0,0,0,0), 0 0.03em rgba(0,0,0,0), 0 -0.03em rgba(0,0,0,0), 0.06em 0 rgba(0,0,0,0), -0.06em 0 rgba(0,0,0,0), 0.09em 0 rgba(0,0,0,0), -0.09em 0 rgba(0,0,0,0), 0.12em 0 rgba(0,0,0,0), -0.12em 0 rgba(0,0,0,0), 0.15em 0 rgba(0,0,0,0), -0.15em 0 rgba(0,0,0,0);
-  background-image: linear-gradient(#0ba6d7, #9c9c9c);
+  background-image: unset;
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
   opacity: 1;
   text-decoration: none;
-  /* color: #0ba6d7; */
-  opacity: 0.6;
+  color: #0ba6d7;
+  /* opacity: 0.6; */
+  
+}
+.header__link:hover input {
+  text-shadow: 0.03em 0 rgba(0,0,0,0), -0.03em 0 rgba(0,0,0,0), 0 0.03em rgba(0,0,0,0), 0 -0.03em rgba(0,0,0,0), 0.06em 0 rgba(0,0,0,0), -0.06em 0 rgba(0,0,0,0), 0.09em 0 rgba(0,0,0,0), -0.09em 0 rgba(0,0,0,0), 0.12em 0 rgba(0,0,0,0), -0.12em 0 rgba(0,0,0,0), 0.15em 0 rgba(0,0,0,0), -0.15em 0 rgba(0,0,0,0);
+  background-size: 1px 1px;
+  background-repeat: repeat-x;
+  background-position: 0% 95%;
   filter: brightness(0.5) sepia(1) hue-rotate(160deg) saturate(9);
 }
 .header__link:hover::selection {
   text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
   background: #0ba6d7;
+}
+.menu__language {
+  vertical-align: middle;
 }
 @media screen and (max-width:755px){
   .header__navfull {
@@ -658,6 +670,12 @@ article .different-posts {
 }
 .footer__element h5 {
   margin-top: 0;
+}
+.footer-links__link {
+  display: flex;
+}
+.footer-links__link img {
+  margin: 0 0.5rem;
 }
 @media only screen and (max-width: 40em) {
   .footer__element {
