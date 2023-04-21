@@ -23,110 +23,130 @@
 				<ul class="header__navfull_menu">
 					<li>
 						<a href="/cn/index.html" class="header__link">
-							<input type="image" class="menu__home" src="../img/home.svg"  width="16px" height="16px">
+							<input type="image" class="menu__home" src="/img/home.svg"  width="16px" height="16px">
 							首页
 						</a>
 					</li>
 					<li>
-						<a href="/projects" class="header__link">
-							<input type="image" class="menu__projects" src="../img/projects.svg" width="16px" height="16px">
+						<a href="/cn/projects.html" class="header__link">
+							<input type="image" class="menu__projects" src="/img/projects.svg" width="16px" height="16px">
 							项目
 						</a>
 					</li>
 					<li>
-						<a href="/about" class="header__link">
-							<input type="image" class="menu__about" src="../img/about.svg" width="16px" height="16px">
+						<a href="/cn/about.html" class="header__link">
+							<input type="image" class="menu__about" src="/img/about.svg" width="16px" height="16px">
 							关于
 						</a>
 					</li>
 					<li>
-						<a href="/contact" class="header__link">
-							<input type="image" class="menu__contact" src="../img/contact.svg" width="16px" height="16px">
+						<a href="/cn/about.html" class="header__link">
+							<input type="image" class="menu__contact" src="/img/contact.svg" width="16px" height="16px">
 							联系
 						</a>
 					</li>
 					<li>
 						<div class="header__link" onclick="changeLanguage()">
 							<!-- <img class="menu__language" src="img/cn_en.svg" width="20px" height="20px"> -->
-							<input type="image" class="menu__language" src="../img/cn_en.svg" width="18px" height="18px">
+							<input type="image" class="menu__language" src="/img/cn_en.svg" width="18px" height="18px">
 							English
 						</div>
 					</li>
 				</ul>
 			</div>
 			<div class="header__navinbox">
-				<a class="header__nav_logo" href="/cn/index.html">
-					<img src="../img/logo.jpg" width="32px" height="32px">
+				<a class="header__nav_logo" href="/">
+					<img src="/img/logo.jpg" width="32px" height="32px">
 				</a>
-				<span class="header__nav_title">Projects</span>
+				<span class="header__nav_title">关于</span>
 				<div class="header__navdown">
-					<input type="image" class="header__navdown_menu" name="menu_click" src="../img/menu.svg" width="32px" height="32px">
+					<input type="image" class="header__navdown_menu" name="menu_click" src="/img/menu.svg" width="32px" height="32px">
 					<div class="header__downmenu">
-						<a href="/" class="header__link">
+						<a href="/cn/index.html" class="header__link">
 							<input type="image" class="menu__home" src="/img/home.svg"  width="16px" height="16px">
-							Home
+							主页
 						</a>
-						<a href="/projects" class="header__link">
+						<a href="/cn/projects.html" class="header__link">
 							<input type="image" class="menu__projects" src="/img/projects.svg" width="16px" height="16px">
-							Projects
+							项目
 						</a>
-						<a href="/about" class="header__link">
+						<a href="/cn/about.html" class="header__link">
 							<input type="image" class="menu__about" src="/img/about.svg" width="16px" height="16px">
-							About
+							关于
 						</a>
-						<a href="/contact" class="header__link">
+						<a href="/cn/about.html" class="header__link">
 							<input type="image" class="menu__contact" src="/img/contact.svg" width="16px" height="16px">
-							Contact
+							联系
 						</a>
+						<div class="header__link" onclick="changeLanguage()">
+							<!-- <img class="menu__language" src="img/cn_en.svg" width="20px" height="20px"> -->
+							<input type="image" class="menu__language" src="/img/cn_en.svg" width="16px" height="16px">
+							English
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<h1 class="header__title"><a href="/">Jessie's blog</a></h1>
-		<h2 class="header__subtitle">About weblog.</h2>
+		<h2 class="header__subtitle">关于</h2>
 	</header>
 
 	<main>
 		<article>
-            <h1>Introduce</h1>
+            <h1>个人介绍</h1>
             <div class="article__intro">
                 <blockquote class="article__intro_contain">
-                    <p>Hello, I’m a student in school. 😃<br>My major is Computer Science and Technology. 💻<br>Here are some of the notes that I learned before, and now I sort them out. 📔</p>
+                    <p>
+						你好, 我叫刘嘉欣， 😃<br>
+						2022届毕业于嘉应学院计算机科学与技术专业。 💻<br>
+						我最初的建站初衷是想将平时学到的一些知识记录下来，通过慢慢积累，我发现个人博客更能方便我能随时随地查看。通过慢慢摸索和查阅资料，终于建立起现在较为完整的个人博客网站。 📔<br>
+						如果你想更多了解关于此网站的搭建或者发现网站有什么错误，你可以通过以下联系方式联系我，📫<br>
+						也欢迎你来找我聊聊技术上的知识哟。💬
+					</p>
                 </blockquote>
             </div>
         </article>
 
         <article>
-            <h1>About</h1>
-            <div class="article__intro">
-                <p>A website page created and managed by Jessiellu. 
-					Its purpose is to display and express some of my ideas and study notes.</p>
+            <h1>联系方式</h1>
+            <div class="article__contact">
+                <p>✉️E-mail: jessiellu@163.com</p>
+				<div class="contact-p flex"><img src="../img/github.svg" width="18px" height="18px"><p>GitHub: <a href="https://github.com/Jessiellu">Jessiellu</a></p></div>
+				<div class="contact-p flex">
+					<img src="../img/wechat.svg" width="18px" height="18px">
+					<p>微信: </p>
+				</div>
+				<img src="../img/wechat_code.jpg" width="250px">
             </div>
-			<div class="site__fonts">
+			<!-- <div class="site__fonts">
 				<h3>
 				  Sharp tools <br />
 				  make <br />
 				  good work. <br />
 				</h3>
-			</div>
+			</div> -->
         </article>
-		
+		<script>
+			function changeLanguage() {
+				window.location = '../about/index.html'
+			}
+		</script>
 
 	</main>
 
 	<footer class="footer">
 		<div class="footer-content">
 			<div class="footer__element">
-				<p>Hi there, <br />welcome to my Blog glad you found it. Have a look around, will you?</p>
+				<p>你好， 👋<br />欢迎来到我的博客，很高兴你找到了它。你可以点击看看？</p>
 			</div>
 			<div class="footer__element">
-				<h5>Check out</h5>
+				<h5>点击链接查看</h5>
 				<ul class="footer-links">
-					<li class="footer-links__link"><a href="/">Home</a></li>
-					<li class="footer-links__link"><a href="/projects">Projects</a></li>
-					<li class="footer-links__link"><a href="/about">About page</a></li>
-					<li class="footer-links__link"><a href="/categories">Categories</a></li>
-					<li class="footer-links__link"><a href="https://github.com/Jessiellu">Follow me</a></li>
+					<li class="footer-links__link"><img src="../img/home.svg"><a href="/cn/index.html">主页</a></li>
+					<li class="footer-links__link"><img src="../img/projects.svg"><a href="/projects.html">项目</a></li>
+					<li class="footer-links__link"><img src="../img/about.svg"><a href="/about.html">关于</a></li>
+					<li class="footer-links__link"><img src="../img/contact.svg"><a href="/contact.html">联系</a></li>
+					<li class="footer-links__link"><img src="../img/github_white.svg" width="18px" height="18px"><a href="https://github.com/Jessiellu">关注我</a></li>
 				</ul>
 			</div>
 
