@@ -71,6 +71,10 @@ p {
 ::-webkit-scrollbar-thumb {
   background-color: #33474d;
 }
+/*display*/
+.flex {
+  display: flex;
+}
 @font-face {
   font-family: "Noto Sans";
   src: url("fonts/Noto_Sans/NotoSans-Regular.ttf");
@@ -370,6 +374,9 @@ table tbody tr:hover {
   .article__infos span {
     margin-right: 1em;
   }
+}
+.article__contact .contact-p img {
+margin: auto 0.2rem;
 }
 .post__info span {
   margin-right: 1em;

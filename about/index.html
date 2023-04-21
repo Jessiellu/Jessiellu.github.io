@@ -7,73 +7,89 @@
 	<meta name="theme-color" content="#33474d">
 	<title>About | Jessie&#39;s Blog</title>
     <link rel="icon" href="/img/logo.jpg" sizes="32x32">
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="/about/about_fonts.css">
 	<link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
     <meta name="generator" content="Hexo 5.4.0"></head>
 
 <body>
 
-	<header class="header">
-		<div class="header__nav">
-			<div class="header__navfull">
-				<ul class="header__navfull_menu">
-					<li>
-						<a href="/" class="header__link">
-							<input type="image" class="menu__home" src="/img/home.svg"  width="16px" height="16px">
-							Home
-						</a>
-					</li>
-					<li>
-						<a href="/projects" class="header__link">
-							<input type="image" class="menu__projects" src="/img/projects.svg" width="16px" height="16px">
-							Projects
-						</a>
-					</li>
-					<li>
-						<a href="/about" class="header__link">
-							<input type="image" class="menu__about" src="/img/about.svg" width="16px" height="16px">
-							About
-						</a>
-					</li>
-					<li>
-						<a href="/contact" class="header__link">
-							<input type="image" class="menu__contact" src="/img/contact.svg" width="16px" height="16px">
-							Contact
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="header__navinbox">
-				<a class="header__nav_logo" href="/">
-					<img src="/img/logo.jpg" width="32px" height="32px">
-				</a>
-				<span class="header__nav_title">Projects</span>
-				<div class="header__navdown">
-					<input type="image" class="header__navdown_menu" name="menu_click" src="/img/menu.svg" width="32px" height="32px">
-					<div class="header__downmenu">
-						<a href="/" class="header__link">
-							<input type="image" class="menu__home" src="/img/home.svg"  width="16px" height="16px">
-							Home
-						</a>
-						<a href="/projects" class="header__link">
-							<input type="image" class="menu__projects" src="/img/projects.svg" width="16px" height="16px">
-							Projects
-						</a>
-						<a href="/about" class="header__link">
-							<input type="image" class="menu__about" src="/img/about.svg" width="16px" height="16px">
-							About
-						</a>
-						<a href="/contact" class="header__link">
-							<input type="image" class="menu__contact" src="/img/contact.svg" width="16px" height="16px">
-							Contact
-						</a>
+	<div class="header__nav">
+		<div class="header__navfull">
+			<a class="header__nav_logo" href="/">
+				<img src="/img/logo.jpg" width="32px" height="32px">
+			</a>
+			<ul class="header__navfull_menu">
+				<li>
+					<a href="/" class="header__link">
+						<input type="image" class="menu__home" src="/img/home.svg"  width="16px" height="16px">
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="/articles" class="header__link">
+						<input type="image" class="menu__projects" src="/img/projects.svg" width="16px" height="16px">
+						Article
+					</a>
+				</li>
+				<li>
+					<a href="/about" class="header__link">
+						<input type="image" class="menu__about" src="/img/about.svg" width="16px" height="16px">
+						About
+					</a>
+				</li>
+				<li>
+					<a href="/about" class="header__link">
+						<input type="image" class="menu__contact" src="/img/contact.svg" width="16px" height="16px">
+						Contact
+					</a>
+				</li>
+				<li>
+					<div class="header__link" id="menu__language" onclick="changeLanguage()">
+						<!-- <img class="menu__language" src="img/cn_en.svg" width="20px" height="20px"> -->
+						<input type="image" class="menu__language" src="/img/cn_en.svg" width="18px" height="18px">
+						中文
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="header__navinbox">
+			<a class="header__nav_logo" href="/">
+				<img src="/img/logo.jpg" width="32px" height="32px">
+			</a>
+			<span class="header__nav_title">Home</span>
+			<div class="header__navdown">
+				<input type="image" class="header__navdown_menu" name="menu_click" src="/img/menu.svg" width="32px" height="32px">
+				<div class="header__downmenu">
+					<a href="/" class="header__link">
+						<input type="image" class="menu__home" src="/img/home.svg"  width="16px" height="16px">
+						Home
+					</a>
+					<a href="/projects" class="header__link">
+						<input type="image" class="menu__projects" src="/img/projects.svg" width="16px" height="16px">
+						Projects
+					</a>
+					<a href="/about" class="header__link">
+						<input type="image" class="menu__about" src="/img/about.svg" width="16px" height="16px">
+						About
+					</a>
+					<a href="/contact" class="header__link">
+						<input type="image" class="menu__contact" src="/img/contact.svg" width="16px" height="16px">
+						Contact
+					</a>
+					<div class="header__link" onclick="changeLanguage()">
+						<!-- <img class="menu__language" src="img/cn_en.svg" width="20px" height="20px"> -->
+						<input type="image" class="menu__language" src="/img/cn_en.svg" width="16px" height="16px">
+						中文
 					</div>
 				</div>
 			</div>
 		</div>
-		<h1 class="header__title"><a href="/">Jessie's blog</a></h1>
-		<h2 class="header__subtitle">About weblog.</h2>
+	</div>
+	<header class="header">
+		
+		<h1 class="header__title">Jessie's blog</h1>
+		<h2 class="header__subtitle">Welcome to my blog!</h2>
 	</header>
 
 	<main>
@@ -81,26 +97,41 @@
             <h1>Introduce</h1>
             <div class="article__intro">
                 <blockquote class="article__intro_contain">
-                    <p>Hello, I’m a student in school. 😃<br>My major is Computer Science and Technology. 💻<br>Here are some of the notes that I learned before, and now I sort them out. 📔</p>
+                    <p>
+						Hello, I’m Jessie(刘嘉欣). 😃<br>
+						Graduated from Computer Science and Technology at Jiaying College in 2022. 💻<br>
+						Here are some of the notes that I learned before, and now I sort them out. 📔<br>
+						If you want to learn more about about how to build this website or discover any errors on the website, you can contact me through the following contact information.📫<br>
+						Also, welcome to come and talk to me about technical knowledge. 💬
+					</p>
                 </blockquote>
             </div>
         </article>
 
         <article>
-            <h1>About</h1>
-            <div class="article__intro">
-                <p>A website page created and managed by Jessiellu. 
-					Its purpose is to display and express some of my ideas and study notes.</p>
+            <h1>Contact</h1>
+            <div class="article__contact">
+                <p>✉️E-mail: jessiellu@163.com</p>
+				<div class="contact-p flex"><img src="../img/github.svg" width="18px" height="18px"><p>GitHub: <a href="https://github.com/Jessiellu">Jessiellu</a></p></div>
+				<div class="contact-p flex">
+					<img src="../img/wechat.svg" width="18px" height="18px">
+					<p>WeChat: </p>
+				</div>
+				<img src="../img/wechat_code.jpg" width="250px">
             </div>
-			<div class="site__fonts">
+			<!-- <div class="site__fonts">
 				<h3>
 				  Sharp tools <br />
 				  make <br />
 				  good work. <br />
 				</h3>
-			</div>
+			</div> -->
         </article>
-		
+		<script>
+			function changeLanguage() {
+				window.location = '/cn/index.html'
+			}
+		</script>
 
 	</main>
 
