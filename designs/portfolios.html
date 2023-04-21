@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -9,8 +8,8 @@
 
 	<title>Jessie's Blog</title>
 
-	<link rel="icon" href="img/logo.jpg" sizes="32x32" >
-	<link rel="stylesheet" href="css/style.css" >
+	<link rel="icon" href="/img/logo.jpg" sizes="32x32" >
+	<link rel="stylesheet" href="/css/style.css" >
 	<link rel="alternate" href="atom.xml" title="Jessie's Blog" type="application/atom+xml">
 	<script src="/js/scrollMenu.js"></script>
 
@@ -21,7 +20,7 @@
 	<div class="header__nav">
 		<div class="header__navfull">
 			<a class="header__nav_logo" href="/">
-				<img src="img/logo.jpg" width="32px" height="32px">
+				<img src="/img/logo.jpg" width="32px" height="32px">
 			</a>
 			<ul class="header__navfull_menu">
 				<li>
@@ -59,11 +58,11 @@
 		</div>
 		<div class="header__navinbox">
 			<a class="header__nav_logo" href="/">
-				<img src="img/logo.jpg" width="32px" height="32px">
+				<img src="/img/logo.jpg" width="32px" height="32px">
 			</a>
 			<span class="header__nav_title">Home</span>
 			<div class="header__navdown">
-				<input type="image" class="header__navdown_menu" name="menu_click" src="img/menu.svg" width="32px" height="32px">
+				<input type="image" class="header__navdown_menu" name="menu_click" src="/img/menu.svg" width="32px" height="32px">
 				<div class="header__downmenu">
 					<a href="/" class="header__link">
 						<input type="image" class="menu__home" src="/img/home.svg"  width="16px" height="16px">
@@ -93,37 +92,13 @@
 	<header class="header">
 		
 		<h1 class="header__title">Jessie's blog</h1>
-		<h2 class="header__subtitle">Welcome to my blog!</h2>
+		<h2 class="header__subtitle">Design Portfolios</h2>
 	</header>
 
 	<main>
-		
-	<article>
-		<div class="article__intro">
-			<blockquote class="article__intro_contain">
-				<p>Hello, welcome to my blog. 👋<br>I usually like to study the code of web frontend development. 💻<br>Here are some of the notes that I learned before, and now I sort them out, hoping to learn from each other and help you understand me. 📔<br>If you have any questions or discover website errors, please feel free to contact me 😀</p>
-			</blockquote>
-		</div>
-	</article>
-
-	<h1>Latest articles</h1>
 
 	<article>
-		<h2><a href="/2021/12/09/git/">Git Command</a></h2>
-		<div class="article__infos">
-			<span class="article__date">2021-12-09</span><br />
-			
-		</div>
-		<p>This chapter covers various basic commands that will be used to complete various tasks using Git.</p>
-		<p>
-			<a class="article__read-more-link" href="/2021/12/09/git/">
-				...read more
-			</a>
-		</p>
-	</article>
-
-	<article>
-		<h2><a href="/designs/portfolios.html">Design Portfolios</a></h2>
+		<h1>APP UI Design</h1>
 		<div class="article__infos">
 			<span class="article__date">2021-06-29</span><br />
 		</div>
@@ -137,24 +112,12 @@
 			<figcaption class="figure__caption">Designer：Jessie(刘嘉欣) Sectoin：personal center</figcaption>
 		</figure>
 
-		
-	<article>
-		<h2><a href="/2021/04/11/first_blog/">First_blog</a></h2>
-		<div class="article__infos">
-			<span class="article__date">2021-04-11</span><br />
-		</div>
-		<p>Welcome to my blog ! This is my first post. Welcome to visit it or you can ask me on 
-		<a target="_blank" rel="noopener" href="https://github.com/Jessiellu/Jessiellu.github.io/issues">GitHub</a>.</p>
-		<p>
-			<a class="article__read-more-link" href="/2021/12/09/git/">
-				...read more
-			</a>
-		</p>
-	</article>
+        
 
-	<span class="different-posts">📕 end of posts 📕</span>
+    </article>
+    <span class="different-posts"><a href="/2021/12/09/git-%E5%91%BD%E4%BB%A4/" onclick="window.history.go(-1); return false;">⬅️ Go back </a></span>
 
-	<script>
+    <script>
 		function changeLanguage() {
 			window.location = '/cn/index.html'
 		}
@@ -172,7 +135,6 @@
 				<ul class="footer-links">
 					<li class="footer-links__link"><img src="../img/home.svg"><a href="/">Home</a></li>
 					<li class="footer-links__link"><img src="../img/projects.svg"><a href="/articles">Articles</a></li>
-					<li class="footer-links__link"><img src="../img/design.svg" width="16px" height="16px"><a href="/designs/portfolios.html">Design Portfolios</a></li>
 					<li class="footer-links__link"><img src="../img/about.svg"><a href="/about">About Me</a></li>
 					<li class="footer-links__link"><img src="../img/github_white.svg" width="18px" height="18px"><a href="https://github.com/Jessiellu">Follow me</a></li>
 				</ul>
