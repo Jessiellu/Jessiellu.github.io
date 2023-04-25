@@ -14,65 +14,81 @@
 
 <body>
 
-	<header class="header">
-		<div class="header__nav">
-			<div class="header__navfull">
-				<ul class="header__navfull_menu">
-					<li>
-						<a href="/" class="header__link">
-							<input type="image" class="menu__home" src="/img/home.svg"  width="16px" height="16px">
-							Home
-						</a>
-					</li>
-					<li>
-						<a href="/projects" class="header__link">
-							<input type="image" class="menu__projects" src="/img/projects.svg" width="16px" height="16px">
-							Projects
-						</a>
-					</li>
-					<li>
-						<a href="/about" class="header__link">
-							<input type="image" class="menu__about" src="/img/about.svg" width="16px" height="16px">
-							About
-						</a>
-					</li>
-					<li>
-						<a href="/contact" class="header__link">
-							<input type="image" class="menu__contact" src="/img/contact.svg" width="16px" height="16px">
-							Contact
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="header__navinbox">
-				<a class="header__nav_logo" href="/">
-					<img src="img/logo.jpg" width="32px" height="32px">
-				</a>
-				<span class="header__nav_title">Home</span>
-				<div class="header__navdown">
-					<input type="image" class="header__navdown_menu" name="menu_click" src="img/menu.svg" width="32px" height="32px">
-					<div class="header__downmenu">
-						<a href="/" class="header__link">
-							<input type="image" class="menu__home" src="img/home.svg"  width="16px" height="16px">
-							Home
-						</a>
-						<a href="/projects" class="header__link">
-							<input type="image" class="menu__projects" src="img/projects.svg" width="16px" height="16px">
-							Projects
-						</a>
-						<a href="/about" class="header__link">
-							<input type="image" class="menu__about" src="img/about.svg" width="16px" height="16px">
-							About
-						</a>
-						<a href="/contact" class="header__link">
-							<input type="image" class="menu__contact" src="img/contact.svg" width="16px" height="16px">
-							Contact
-						</a>
+	<div class="header__nav">
+		<div class="header__navfull">
+			<a class="header__nav_logo" href="/">
+				<img src="/img/logo.jpg" width="32px" height="32px">
+			</a>
+			<ul class="header__navfull_menu">
+				<li>
+					<a href="/" class="header__link">
+						<input type="image" class="menu__home" src="/img/home.svg"  width="16px" height="16px">
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="/articles" class="header__link">
+						<input type="image" class="menu__projects" src="/img/projects.svg" width="16px" height="16px">
+						Article
+					</a>
+				</li>
+                <li>
+					<a href="/designs/portfolios.html" class="header__link">
+						<input type="image" class="menu__contact" src="/img/design.svg" width="16px" height="16px">
+						Portfolios
+					</a>
+				</li>
+				<li>
+					<a href="/about" class="header__link">
+						<input type="image" class="menu__about" src="/img/about.svg" width="16px" height="16px">
+						About
+					</a>
+				</li>
+				<li>
+					<div class="header__link" id="menu__language" onclick="changeLanguage()">
+						<!-- <img class="menu__language" src="img/cn_en.svg" width="20px" height="20px"> -->
+						<input type="image" class="menu__language" src="/img/cn_en.svg" width="18px" height="18px">
+						中文
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="header__navinbox">
+			<a class="header__nav_logo" href="/">
+				<img src="/img/logo.jpg" width="32px" height="32px">
+			</a>
+			<span class="header__nav_title">Home</span>
+			<div class="header__navdown">
+				<input type="image" class="header__navdown_menu" name="menu_click" src="img/menu.svg" width="32px" height="32px">
+				<div class="header__downmenu">
+					<a href="/" class="header__link">
+						<input type="image" class="menu__home" src="/img/home.svg"  width="16px" height="16px">
+						Home
+					</a>
+					<a href="/articles" class="header__link">
+                        <input type="image" class="menu__projects" src="/img/projects.svg" width="16px" height="16px">
+                        Article
+                    </a>
+                    <a href="/designs/portfolios.html" class="header__link">
+                        <input type="image" class="menu__contact" src="/img/design.svg" width="16px" height="16px">
+                        Portfolios
+                    </a>
+					<a href="/about" class="header__link">
+						<input type="image" class="menu__about" src="/img/about.svg" width="16px" height="16px">
+						About
+					</a>
+					<div class="header__link" onclick="changeLanguage()">
+						<!-- <img class="menu__language" src="img/cn_en.svg" width="20px" height="20px"> -->
+						<input type="image" class="menu__language" src="/img/cn_en.svg" width="16px" height="16px">
+						中文
 					</div>
 				</div>
 			</div>
 		</div>
-		<h1 class="header__title"><a href="/">Jessie&#39;s blog</a></h1>
+	</div>
+	<header class="header">
+		
+		<h1 class="header__title">Jessie's blog</h1>
 		<h2 class="header__subtitle">Welcome to my blog!</h2>
 	</header>
 
@@ -83,7 +99,7 @@
 		<div class="article__infos">
 			<span class="article__date">2021-12-09</span><br />
 		</div>
-		<span>配置并初始化一个仓库（repository）、开始或停止跟踪（track）文件、暂存（stage）或提交（commit）更改。</span>
+		<span>配置并初始化一个仓库（repository）、开始或停止跟踪（track）文件、暂存（stage）或提交（commit）更改。参考网址：<a href="https://git-scm.com/book/zh/v2/">https://git-scm.com/book/zh/v2/</a></span>
 		<h3>
 			<a href="#获取Git仓库" class="headerlink" title="获取Git仓库"></a>
 			获取Git仓库
@@ -134,7 +150,41 @@
 		</figure>
 		<p style="color: #CC0000;">* url填写你需要克隆的仓库地址</p>
 		<p>例如：<code>$ git clone https://github.com/libgit2/libgit2</code></p>
-		<p>Git 支持多种数据传输协议。 上面的例子使用的是<code>https://</code>协议，不过你也可以使用<code> git:// </code>协议或者使用 SSH 传输协议，比如<code> user@server:path/to/repo.git </code>。</p>
+		<p>Git 支持多种数据传输协议。 上面的例子使用的是<code> https:// </code>协议，不过你也可以使用<code> git:// </code>协议或者使用 SSH 传输协议，比如<code> user@server:path/to/repo.git </code>。</p>
+		<h4>分支的新建与合并</h4>
+		<p>当你在开发某个网站时，为实现某个新需求，需要创建一个新的分支做这个新功能，通过以下步骤在目前的仓库创建新分支：</p>
+		<figure class="highlight bash">
+			<table>
+				<tr>
+					<td class="gutter"><pre><span class="line">1</span><br></pre></td>
+					<td class="code"><pre><span class="line">$ git branch -a		#列出所有分支</span><br></pre></td>
+				</tr>
+				<tr>
+					<td class="gutter"><pre><span class="line">2</span><br></pre></td>
+					<td class="code"><pre><span class="line">$ git branch test	#创建分支test</span><br></pre></td>
+				</tr>
+				<tr>
+					<td class="gutter"><pre><span class="line">3</span><br></pre></td>
+					<td class="code"><pre><span class="line">$ git checkout test	#切换到分支test</span><br></pre></td>
+				</tr>
+				<tr>
+					<td class="gutter"><pre><span class="line"></span><br></pre></td>
+					<td class="code"><pre><span class="line">$ git checkout -b test	#切换并创建分支test</span><br></pre></td>
+				</tr>
+				<tr>
+					<td class="gutter"><pre><span class="line">4</span><br></pre></td>
+					<td class="code"><pre><span class="line">$ git add .	#添加add修改</span><br></pre></td>
+				</tr>
+				<tr>
+					<td class="gutter"><pre><span class="line">5</span><br></pre></td>
+					<td class="code"><pre><span class="line">$ git commit -m "create new branch"	#提交分支</span><br></pre></td>
+				</tr>
+				<tr>
+					<td class="gutter"><pre><span class="line">6</span><br></pre></td>
+					<td class="code"><pre><span class="line">$ git push origin test	#推送分支到远程</span><br></pre></td>
+				</tr>
+			</table>
+		</figure>
 
 		<span class="different-posts"><a href="/2021/12/09/git-%E5%91%BD%E4%BB%A4/" onclick="window.history.go(-1); return false;">⬅️ Go back </a></span>
 
